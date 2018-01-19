@@ -19,6 +19,7 @@ function appendTile(tile) {
     let h4 = document.createElement('h4');
         h4.innerHTML = tile;
         div.appendChild(h4);
+        div.style.color = '#283593';
     document.querySelector('.board').appendChild(div);
 }
 
